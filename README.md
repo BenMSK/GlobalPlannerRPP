@@ -20,8 +20,10 @@ This code is implemented with ROS.
 ## Graph form in .txt
 'the number of vertices'  
 'the number of edges'  
-{'node_idx x_coords y_coords'} // coordinates of each node
-...
-{'node_a node_b directed_or_undirected(not_used...) required_edge(1)_or_optional_edge(0)} // informations of each edge
+{'node_idx x_coords y_coords'} // coordinates of each node  
+...  
+{'node_a node_b directed_or_undirected(not_used...) required_edge(1)_or_optional_edge(0)} // informations of each edge  
+
+
 
 
