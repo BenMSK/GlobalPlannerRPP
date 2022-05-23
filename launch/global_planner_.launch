@@ -1,7 +1,7 @@
 <launch>
 
 <!-- graph map -->
-  <param name="load_graph" value="$(find global_planner)/map/map_complex1.txt"/>
+  <param name="load_graph" value="$(find global_planner)/map/map_sim1.txt"/>
 
 <!-- CARLA RESET position -->
   <param name="carla_reset_pos" value="true" />
