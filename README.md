@@ -1,9 +1,9 @@
 # GlobalPlannerRPP
 Implementation of Global Planner with RPP for parking global plan.  
 
-This repository is based on [this paper](https://ieeexplore.ieee.org/abstract/document/8917318) below.  
+This repository is based on [the paper](https://ieeexplore.ieee.org/abstract/document/8917318) below.  
 Kim, Minsoo, Joonwoo Ahn, and Jaeheung Park. "Global Planning Method for Visiting Roads with Parking Spaces in Priority using Rural Postman Problem." 2019 IEEE Intelligent Transportation Systems Conference (ITSC). IEEE, 2019.  
-All the details of the algorithm can be found the paper.  
+All the details of the algorithm can be found from this paper.  
 This code is implemented with ROS.  
 
 ## Requirements
