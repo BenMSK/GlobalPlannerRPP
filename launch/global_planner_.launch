@@ -1,0 +1,13 @@
+<launch>
+
+<!-- graph map -->
+  <param name="load_graph" value="$(find global_planner)/map/map_complex1.txt"/>
+
+<!-- CARLA RESET position -->
+  <param name="carla_reset_pos" value="true" />
+
+<!-- global path -->
+  <node name="global_planner_node" pkg="global_planner" type="global_planner_node"  output="screen" /> 
+  <node pkg="rviz" type="rviz" name="rviz" args = "-d $(find global_planner)/rviz/gp.rviz" />
+  <!-- <node pkg="rviz" type="rviz" name="rviz" args="-d $(find global_planner)/rviz/globalPath.rviz" /> -->
+</launch>
