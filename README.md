@@ -17,7 +17,7 @@ This code is implemented with ROS.
 3) All parking lot is formulated as a graph, and the graph's information is contained in a '.txt' file.  
 4) If you want to use a custom map, you should formulate the map into a graph. The edge of the graph consists of 'required', which is required to be visited, and optional edges, which is not required to.    
 
-# algorithm inputs and outputs  
+### algorithm inputs and outputs  
 * input: a graph map ('.txt' format)  
 * output: a sequence of node for visiting required road in priority  
 
