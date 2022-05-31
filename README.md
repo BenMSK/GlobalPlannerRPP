@@ -14,8 +14,8 @@ This code is implemented with ROS.
 ## How to use
 1) clone this code in catkin_ws/src
 2) build and launch global_planner_.launch
-3) All parking lot is formulated as a graph, and the graph's information is contained in a .txt file.  
-4) If you want to use a custom map, you should formulate the map into a graph. The edge of the graph consists of required, and optional edges.  
+3) All parking lot is formulated as a graph, and the graph's information is contained in a '.txt' file.  
+4) If you want to use a custom map, you should formulate the map into a graph. The edge of the graph consists of 'required', which is required to be visited, and optional edges, which is not required to.    
 
 ## Graph form in .txt
 'the number of vertices'  
